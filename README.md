@@ -45,20 +45,13 @@ curl -u "USERNAME:ACCESS_KEY" \
 
 
 
-### **Speed up test execution with parallel testing :**
+### Use parallel testing for this example :**
+
+Android is the prefered device for this test, but you can obtain a sample .IPA file as well and test on iOS.
 
 - Switch to `run_parallel_test` directory under [Android examples](android/testng-examples/) or [iOS examples](ios/testng-examples/)
 - Follow the steps outlined in the documentation - [Get Started with parallel testing on App Automate](https://www.browserstack.com/docs/app-automate/appium/getting-started/java/testng/parallelize-tests)
 
-
-## Integration with other Java frameworks
-
-For other Java frameworks samples, refer to following repositories :
-
-- [JUnit](https://github.com/browserstack/junit-appium-app-browserstack)
-- [Java](https://github.com/browserstack/java-appium-app-browserstack)
-
-Note: For other test frameworks supported by App-Automate refer our [Developer documentation](https://www.browserstack.com/docs/)
 
 ## Getting Help
 
