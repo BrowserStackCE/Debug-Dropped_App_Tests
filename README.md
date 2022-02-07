@@ -37,7 +37,12 @@ mvn clean
 
 ## Getting Started
 
-Getting Started with Appium tests in TestNg on BrowserStack couldn't be easier!
+You first need to upload your app to BrowserStack servers.  Please use the public app: 
+
+curl -u "USERNAME:ACCESS_KEY" \
+-X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+-F "url=https://www.browserstack.com/app-automate/sample-apps/android/WikipediaSample.apk"
+
 
 
 ### **Speed up test execution with parallel testing :**
