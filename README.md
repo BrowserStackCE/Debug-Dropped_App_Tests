@@ -1,6 +1,6 @@
-# testng-appium-app-browserstack
+# Debug-Dropped_App_Tests
 
-This repository demonstrates how to run Appium tests in [TestNG](http://testng.org) on BrowserStack App Automate.
+This repository demonstrates how to debug dropped tests with App Automate.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
@@ -39,22 +39,12 @@ mvn clean
 
 Getting Started with Appium tests in TestNg on BrowserStack couldn't be easier!
 
-### **Run first test :**
-
-- Switch to `run_first_test` directory under [Android examples](android/testng-examples) or [iOS examples](ios/testng-examples)
-- Follow the steps outlined in the documentation - [Get Started with your first test on App Automate](https://www.browserstack.com/docs/app-automate/appium/getting-started/java/testng)
 
 ### **Speed up test execution with parallel testing :**
 
 - Switch to `run_parallel_test` directory under [Android examples](android/testng-examples/) or [iOS examples](ios/testng-examples/)
 - Follow the steps outlined in the documentation - [Get Started with parallel testing on App Automate](https://www.browserstack.com/docs/app-automate/appium/getting-started/java/testng/parallelize-tests)
 
-### **Use Local testing for apps that access resources hosted in development or testing environments :**
-
-- Switch to `run_local_test` directory under [Android examples](android/testng-examples/) or [iOS examples](ios/testng-examples/)
-- Follow the steps outlined in the documentation - [Get Started with Local testing on App Automate](https://www.browserstack.com/docs/app-automate/appium/getting-started/java/testng/local-testing)
-
-**Note**: If you are facing any issues, refer [Getting Help section](#Getting-Help)
 
 ## Integration with other Java frameworks
 
@@ -67,4 +57,4 @@ Note: For other test frameworks supported by App-Automate refer our [Developer d
 
 ## Getting Help
 
-If you are running into any issues or have any queries, please check [Browserstack Support page](https://www.browserstack.com/support/app-automate) or [get in touch with us](https://www.browserstack.com/contact?ref=help).
+This repository is designed for internal debug certification.
