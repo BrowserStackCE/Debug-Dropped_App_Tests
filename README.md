@@ -1,6 +1,6 @@
-# Debug-Dropped_App_Tests
+# Debug-Queued_Tests
 
-This repository demonstrates how to debug dropped tests with App Automate for internal debug certification.
+This repository demonstrates how to debug why tests queue in App Automate for internal debug certification.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
@@ -49,7 +49,9 @@ curl -u "USERNAME:ACCESS_KEY" \
 
 Android is the prefered device for this test, but you can obtain a sample .IPA file as well and test on iOS.
 
-- Switch to `run_parallel_test` directory under [Android examples](android/testng-examples/) or [iOS examples](ios/testng-examples/)
+- Navigate to Debug-Dropped_App_Tests/android/testng-examples/src/test/resources/com/browserstack/run_parallel_test and edit the paralle config file to add in your credentials and App id.
+- Switch to [Android examples](android/testng-examples/) and run the parallel test : mvn test -P parallel 
+
 - Follow the steps outlined in the documentation - [Get Started with parallel testing on App Automate](https://www.browserstack.com/docs/app-automate/appium/getting-started/java/testng/parallelize-tests)
 
 
