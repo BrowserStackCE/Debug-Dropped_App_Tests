@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parallel" thread-count="7" parallel="tests">
+<suite name="Parallel" thread-count="16" parallel="tests">
     <test name="ParallelTestPixel3">
     <parameter name="deviceIndex" value="0"/>
         <classes>
@@ -14,4 +14,96 @@
             <class name="com.browserstack.run_parallel_test.ParallelTest"/>
         </classes>
     </test>
+    <test name="ParallelTestPixel3xl">
+    <parameter name="deviceIndex" value="2"/>
+         <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+         </classes>
+    </test>
+    
+    <test name="ParallelTestGalaxys10e">
+    <parameter name="deviceIndex" value="3"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestPixel3a">
+    <parameter name="deviceIndex" value="4"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    
+    <test name="ParallelTestPixel5">
+    <parameter name="deviceIndex" value="5"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestGalaxysa51">
+    <parameter name="deviceIndex" value="6"/>
+        <classes>
+             <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+        
+    <test name="ParallelTestGalaxys20">
+    <parameter name="deviceIndex" value="7"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestGalaxys21">
+    <parameter name="deviceIndex" value="8"/>
+        <classes>
+             <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+     <test name="ParallelTestPixel31">
+    <parameter name="deviceIndex" value="9"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+
+    <test name="ParallelTestGalaxy10e1">
+    <parameter name="deviceIndex" value="10"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestPixel3xl1">
+    <parameter name="deviceIndex" value="11"/>
+         <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+         </classes>
+    </test>
+    
+    <test name="ParallelTestGalaxys10e1">
+    <parameter name="deviceIndex" value="12"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestPixel3a1">
+    <parameter name="deviceIndex" value="13"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    
+    <test name="ParallelTestPixel51">
+    <parameter name="deviceIndex" value="14"/>
+        <classes>
+            <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+    <test name="ParallelTestGalaxysa511">
+    <parameter name="deviceIndex" value="15"/>
+        <classes>
+             <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+        </classes>
+    </test>
+        
+    
 </suite>
